@@ -1,0 +1,12 @@
+alias ls="exa"
+alias tree="exa --tree"
+alias ma="tldr"
+alias ..="cd .."
+alias la="ls -alhS"
+
+# Github stuff
+alias gaa="git add --all"
+alias gcm="git commit -m"
+alias gss="git status -s"
+alias gl="git pull"
+alias gp="git push"

@@ -1,7 +1,9 @@
 call plug#begin('~/.vim/plugged')
 Plug 'connorholyday/vim-snazzy'
+Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'itchyny/lightline.vim'
 call plug#end()
+
 " Enable syntax highlighting
 syntax enable
 set termguicolors
@@ -37,6 +39,14 @@ set ruler
 
 " Light Line config
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
+let g:lightline = { 'colorscheme': 'one' }
+
+let mapleader = ","
+
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
+nmap <leader>ne :NERDTree<cr>
+let NERDTreeQuitOnOpen = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeShowHidden=1

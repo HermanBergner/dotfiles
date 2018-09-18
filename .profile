@@ -2,6 +2,7 @@ source dotfiles/.alias
 . /usr/local/etc/profile.d/z.sh
 
 function parse_git_branch {
-   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+  git branch 2> /dev/null | sed  -e 's/* \(.*\)/[\1]/'
 }
-export PS1="[\W]\$(parse_git_branch)ğŸ™»: "
+export PS1="\e[34m</\e[39m\W\e[34m/>\e[39m\e[93m\$(parse_git_branch)\e[34m -> \e[39m"
+

@@ -3,6 +3,7 @@ alias tree="exa --tree"
 alias ma="tldr"
 alias ..="cd .."
 alias la="ls -alhS"
+alias cat="bat" 
 
 # Github stuff
 alias gaa="git add --all"

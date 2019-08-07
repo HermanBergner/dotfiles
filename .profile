@@ -1,5 +1,5 @@
 export TERM=xterm-256color
-source dotfiles/.alias
+source ~/dotfiles/.alias
 . /usr/local/etc/profile.d/z.sh
 
 function parse_git_branch {

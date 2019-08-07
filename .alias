@@ -7,8 +7,10 @@ alias cat="bat"
 
 # Github stuff
 alias gaa="git add --all"
+alias ga="git add"
 alias gcm="git commit -m"
 alias gss="git status -s"
 alias gl="git pull"
 alias gp="git push"
+alias gf="git fetch"
 alias gd="git difftool --no-symlinks --dir-diff"

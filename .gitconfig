@@ -13,3 +13,5 @@
   cmd = kitty kitty +kitten diff $LOCAL $REMOTE
 [includeIf "gitdir:~/Github/forbidden_planet/"]
     path = ~/Github/forbidden_planet/.gitconfig
+[credential]
+	helper = osxkeychain

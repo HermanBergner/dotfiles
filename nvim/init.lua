@@ -1,0 +1,5 @@
+require("config.options")
+require("config.general")
+require("config.lazy")
+require("config.keymaps")
+require("config.treesitter")
